@@ -20,6 +20,15 @@
       ],
       "@datas/*": [
         "./src/data/*"
+      ],
+      "@services/*": [
+        "./src/services/*"
+      ],
+      "@dto/*": [
+        "./src/dto/*"
+      ],
+      "@store/*": [
+        "./src/store/*"
       ]
     },
     "moduleResolution": "node",
