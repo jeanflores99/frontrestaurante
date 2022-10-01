@@ -5,7 +5,6 @@ import { useSelector, useDispatch } from 'react-redux'
 export const WrapperMesas = () => {
   // const [Mesas, SetMesas] = useState([])
   const Mesas = useSelector((state: RootState) => state.mesa.mesas)
-  console.log(Mesas)
   return (
     <div className="flex flex-col gap-2">
 

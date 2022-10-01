@@ -4,9 +4,10 @@ import { Container } from "@components/container";
 const Mantenedor: NextPage = () => {
   return (
     <Container>
-      <div className="border-2 border-yellow-400 ">Modulo atender</div>
+      <h1>Mantenedor</h1>
     </Container>
   );
 };
 
 export default Mantenedor;
+

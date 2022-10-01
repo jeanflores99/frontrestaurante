@@ -10,7 +10,7 @@ export const Mesa = ({ data }: Iprops) => {
   const { push: Push } = useRouter()
   return (<div
     className={` w-5/6 h-36 mx-auto flex flex-col justify-between ${data.free ? 'bg-green-200' : 'bg-red-200'}`}
-    // onClick={() => Push(`/mesas/${data.id}`)}
+    onClick={() => Push(`/atender/${data.id}`)}
   >
     <div className="flex flex-row justify-around ">
       <div>{data.etiqueta}</div>
